@@ -58,13 +58,37 @@
 			children = (
 				4C14C4022C4BDCB400ED8CD5 /* AppDelegate.swift */,
 				4C14C4042C4BDCB400ED8CD5 /* SceneDelegate.swift */,
-				4C14C4062C4BDCB400ED8CD5 /* ViewController.swift */,
-				4C14C4082C4BDCB400ED8CD5 /* Main.storyboard */,
+				4C14C4192C4BE41200ED8CD5 /* Models */,
+				4C14C4172C4BE3E400ED8CD5 /* Views */,
+				4C14C4182C4BE3FB00ED8CD5 /* Controllers */,
 				4C14C40B2C4BDCB800ED8CD5 /* Assets.xcassets */,
 				4C14C40D2C4BDCB800ED8CD5 /* LaunchScreen.storyboard */,
 				4C14C4102C4BDCB800ED8CD5 /* Info.plist */,
 			);
 			path = "BMI Calculator";
+			sourceTree = "<group>";
+		};
+		4C14C4172C4BE3E400ED8CD5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C14C4082C4BDCB400ED8CD5 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C14C4182C4BE3FB00ED8CD5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C14C4062C4BDCB400ED8CD5 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4C14C4192C4BE41200ED8CD5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "BMI-Calculator.BMI-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = Anos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -333,7 +357,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "BMI-Calculator.BMI-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = Anos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
